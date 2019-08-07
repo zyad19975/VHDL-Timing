@@ -39,3 +39,17 @@ These examples use [ModelSim and Quartus from Intel FPGA](http://fpgasoftware.in
     ```sh
     $ vsim work.count_bin_tb
     ```
+    
+6. Synthesis your design. For example, to synthesis the binary counter:
+
+    ```sh
+    $ mkdir quartus/count_bin
+    ```
+    Run Quartus Prime
+
+ 7. Run timing simulation for your design. For example, to simulate the binary counter testbench:
+
+    ```sh
+    $ vcom ./quartus/simulation/modelsim/count_bin.vho
+    $ vsim work.count_bin_tb -sdftyp /dut=./vhdl-timing/quartus/simulation/modelsim/count_bin_vhd.sdo
+    ```
