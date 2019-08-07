@@ -45,23 +45,23 @@ These examples use [ModelSim and Quartus from Intel FPGA](http://fpgasoftware.in
     ```sh
     $ mkdir quartus/count_bin
     ```
-    Run Quartus Prime
-    From Menu, choose File -> New Project Wizard
-    Click: Next
-    For the working directory, fill with: <path to your projects folder>/vhdl-timing/quartus/count_bin
-    For the projectname, fill with: count_bin
-    Click: Next
-    Click: Next
-    In File name, fill with: ../../count_bin.vhd
-    Click: Add
-    Click: Next
-    From Device family, choose: Cyclone IV E
-    From Available devices, choose: EP4CE22f17C6
-    Click: Next
-    From Simulation, choose Tool Name: ModelSim-Intel and Format: VHDL
-    Click: Next
-    Click: Finish
-    From Menu, choose Processing -> Start Compilation
+    Run Quartus Prime<br>
+    From Menu, choose File -> New Project Wizard<br>
+    Click: Next<br>
+    For the working directory, fill with: <path to your projects folder>/vhdl-timing/quartus/count_bin<br>
+    For the projectname, fill with: count_bin<br>
+    Click: Next<br>
+    Click: Next<br>
+    In File name, fill with: ../../count_bin.vhd<br>
+    Click: Add<br>
+    Click: Next<br>
+    From Device family, choose: Cyclone IV E<br>
+    From Available devices, choose: EP4CE22F17C6<br>
+    Click: Next<br>
+    From Simulation, choose Tool Name: ModelSim-Intel and Format: VHDL<br>
+    Click: Next<br>
+    Click: Finish<br>
+    From Menu, choose Processing -> Start Compilation<br>
 
  7. Run timing simulation for your design. For example, to simulate the binary counter testbench after synthesizing the binary counter component:
 
