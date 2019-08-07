@@ -11,12 +11,12 @@ These examples use [ModelSim and Quartus from Intel FPGA](http://fpgasoftware.in
 
     ```sh
     $ cd projects
-    $ git clone https://github.com/ihabadly/vhdl-basics.git
+    $ git clone https://github.com/ihabadly/vhdl-timing.git
     ```
 2. Use Visual Studio Code (VSC) to edit and view the design files:
 
     ```sh
-    $ cd vhdl-basics
+    $ cd vhdl-timing
     $ code .
     ```
     Click on the count_bin.vhd file in the left pane to view its contents.
