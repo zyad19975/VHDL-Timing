@@ -3,7 +3,7 @@ Timing simulation example using VHDL
 
 ## Install
 
-These examples use [ModelSim and Quartus from Intel FPGA](http://fpgasoftware.intel.com/?edition=lite), [GIT](https://git-scm.com/download/win), [Visual Studio Code](https://code.visualstudio.com/download), make sure they are installed locally on your computer before proceeding.
+These examples use [ModelSim&reg; and Quartus&reg; Prime from Intel FPGA](http://fpgasoftware.intel.com/?edition=lite), [GIT](https://git-scm.com/download/win), [Visual Studio Code](https://code.visualstudio.com/download), make sure they are installed locally on your computer before proceeding.
 
 ## Usage
 
@@ -71,8 +71,8 @@ These examples use [ModelSim and Quartus from Intel FPGA](http://fpgasoftware.in
     $ vcom ./quartus/count_bin/simulation/modelsim/count_bin.vho
     $ vsim work.count_bin_tb -sdftyp /dut=./quartus/count_bin/simulation/modelsim/count_bin_vhd.sdo
     ```
-    
-  9. To download and test your design on the FPGA development board:
+
+9. To download and test your design on the FPGA development board:
 	- From the Quartus Menu, choose Assignments -> Pin Planner
     - Assign Location "R8" for the "clk" port
     - Assign Location "J15" for the "rst" port
